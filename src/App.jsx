@@ -12,24 +12,6 @@ function App() {
     setJsonOutput(JSON.stringify(jsonData, null, 2));
   };
 
-  const handleClear = () => {
-    setSavedData(null);
-    setJsonOutput('');
-  };
-
-  const handleSetData = () => {
-    const input = prompt('Paste JSON data:');
-    if (input) {
-      try {
-        const parsed = JSON.parse(input);
-        setSavedData(parsed);
-        setJsonOutput(JSON.stringify(parsed, null, 2));
-      } catch (e) {
-        alert('Invalid JSON: ' + e.message);
-      }
-    }
-  };
-
   return (
         <div className="app-layout">
           <div className="editor-container">

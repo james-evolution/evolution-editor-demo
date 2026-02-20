@@ -3,8 +3,6 @@
 
 This project is a [live demo](https://evolution-editor-demo.vercel.app/) of the npm package [`@evolution-james/evolution-editor`](https://www.npmjs.com/package/@evolution-james/evolution-editor).
 
-Explore the features and capabilities of the Evolution Theme Engine in this interactive environment.
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
